@@ -1,0 +1,42 @@
+//INPUT
+34
+55
+import java.util.*;
+public class while_loop{
+  public static void main(String[] args){
+    int a;
+    System.out.print("Enter a number: ");
+    Scanner s = new Scanner(System.in);
+    a=s.nextInt();
+    while(a>= 0){
+      if(a%2==0){
+        System.out.println("Even");
+      }
+      else{
+        System.out.println(" Odd");
+      }
+      System.out.println("While loop ended");
+    }
+  }
+}
+//OUTPUT
+Enter a number: Even
+While loop ended
+Even
+While loop ended
+Even
+While loop ended
+Even
+While loop ended
+Even...................................
+Enter a number:  Odd
+While loop ended
+ Odd
+While loop ended
+ Odd
+While loop ended
+ Odd
+While loop ended
+ Odd
+While loop ended
+ Odd........................................
